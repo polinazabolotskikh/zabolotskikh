@@ -1,0 +1,35 @@
+    * {
+        font-family: Verdana;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        }
+    input::placeholder{
+        color: lightgray;
+    }
+    .table1{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
